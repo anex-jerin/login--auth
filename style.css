@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #080710; */
+  /* background-color: #527380; */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(216, 248, 227)), to(#b1f0dd)) fixed;
+  font-size: large;
+}
+
+form {
+  height: 600px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.096);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.356);
+  box-shadow: 0 0 40px rgba(4, 38, 46, 0.329);
+  padding: 50px 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+form * {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(4, 38, 46);
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+}
+form h2 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: center;
+
+}
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 1rem 0.5rem;
+  
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+::placeholder{
+  color: rgba(4, 38, 46, 0.514);
+}
+button{
+  margin-top: 50px;
+  width:100% ;
+  background-color: rgba(27, 32, 30, 0.801);
+  color: #ffffff;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+   background-color: rgba(255, 255, 255, 0.801);
+   color: rgb(0, 0, 0);
+}
+.check {
+  padding: 0px 25px;
+  background: url("checked.png") no-repeat right;
+  background-size: 20px;
+  border-radius: 10px solid black;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.excl{
+  padding: 0px 25px;
+  background: url("warning.png") no-repeat right;
+  background-size: 20px;
+  border-radius: 10px solid black;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+h6{
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #ff000057;
+  font-weight: bold;
+}

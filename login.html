@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+  
+    <form>
+      <h2>Login</h2>
+      <label for="email">Email</label>
+      <input
+        type="email"
+        placeholder="Email"
+        id="email" 
+        name="email"
+        required
+      />
+      <h6 id="error-e"></h6>
+      <label for="Password">Password</label>
+      <input
+        type="password"
+        placeholder="Password"
+        id="password"
+        name="password"
+        required
+        autocomplete="current-password"
+      />
+      <h6 id="error-p"></h6>
+      <button  id="btn">Login</button>
+      <h6 id="login-error"></h6>
+    </form>
+  </body>
+</html>
